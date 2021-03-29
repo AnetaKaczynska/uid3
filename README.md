@@ -2,6 +2,10 @@
 > Summary description here.
 
 
+```python
+%config Completer.use_jedi = False
+```
+
 uID3 in Python.
 
 ## Install
