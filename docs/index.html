@@ -1,13 +1,13 @@
 ---
 
-title: Project name here
+title: uID3 w Pythonie
 
 
 keywords: fastai
 sidebar: home_sidebar
 
-summary: "Summary description here."
-description: "Summary description here."
+summary: "Uncertain Decision Tree Classifier"
+description: "Uncertain Decision Tree Classifier"
 nb_path: "src\index.ipynb"
 ---
 <!--
@@ -29,26 +29,21 @@ nb_path: "src\index.ipynb"
 </div>
     {% endraw %}
 
-    {% raw %}
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="o">%</span><span class="k">config</span> Completer.use_jedi = False
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    {% endraw %}
-
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>uID3 in Python.</p>
+<p>Celem prac jest implementacja mechanizmu budowania drzew decyzyjnych z danych niepewnych.</p>
+<ul>
+<li>Prace bazowaæ bêd¹ na artykule: <a href="https://link.springer.com/chapter/10.1007/978-3-319-91262-2_25">Uncertain Decision Tree Classifier for Mobile Context-Aware Computing</a></li>
+<li>Prace bazowaæ bêd¹ na kodzie: <a href="https://github.com/sbobek/udt">UID3</a></li>
+<li>Prace powinny implementowaæ klasyfikator zgodnie z konwencja <a href="https://scikit-learn.org/stable/modules/generated/sklearn.base.BaseEstimator.html">sklearn</a></li>
+<li>Prace maj¹ finalnie potwierdziæ równowa¿noœæ implementacji Java i Python (z wy³¹czeniem sytuacji gdzie wersja Pythonpoprawia³aby b³êdne dzia³anie wersji Java)</li>
+<li>Do implementacji polecam wykorzystaæ framework <a href="https://nbdev.fast.ai/">nbdev</a></li>
+<li>Implementacja powinna umo¿³iwiaæ rysowanie drzew z wykorzystaniem graphviz:
+<img src="./tree.png" alt=""></li>
+<li>Implementacja powinna umo¿liwiaæ eksport drzew do formatu HMR+, który zaczytywany jest przez webowy edytor <a href="https://heartdroid.re/hwed/">HWED</a>
+<img src="./hmrp.png" alt=""></li>
+<li>Kod powinien byæ napisany i udokumentowany zgodnie z <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a></li>
+</ul>
 
 </div>
 </div>
@@ -61,7 +56,7 @@ nb_path: "src\index.ipynb"
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><code>pip install your_project_name</code></p>
+<p><code>pip install uid3</code></p>
 
 </div>
 </div>
