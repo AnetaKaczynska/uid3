@@ -24,13 +24,6 @@ Celem prac jest implementacja mechanizmu budowania drzew decyzyjnych z danych ni
 
 Fill me in please! Don't forget code examples:
 
-```python
+```
 1+1
 ```
-
-
-
-
-    2
-
-
